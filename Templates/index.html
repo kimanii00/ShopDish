@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <style>
+        h1{
+            text-align: center;
+            color: #205067;
+            font-size: 50px;
+            text-shadow: 8px 8px 8px lightslategrey;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<a href="{% url 'gallery' %}">Gallery</a>
+<a href="{% url 'about' %}">About</a>
+
+<marquee behavior="" direction=""><h1>ShopDish App</h1></marquee>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad amet blanditiis, consequuntur culpa eligendi fuga fugit harum hic iste laborum molestias mollitia nulla placeat soluta, sunt tenetur vel voluptas.</span><span>Animi beatae cum ea eligendi, facilis illo itaque nemo nisi pariatur placeat praesentium ratione repellendus sapiente. Consequatur dolorem libero magni molestias natus nesciunt nulla numquam, porro quidem, sed tempora vitae.</span></p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores culpa eius eligendi facere, harum labore neque nisi quae quam quasi, qui rem sit! Dolorem est excepturi fuga ipsa iusto.</span><span>Aliquam aspernatur assumenda atque blanditiis exercitationem fugiat inventore ipsam modi, mollitia nisi numquam quasi quia quibusdam repellendus sequi sint ullam voluptates! Aperiam dolorem explicabo fugit, labore magni maxime nemo provident!</span><span>Asperiores debitis eum eveniet excepturi ipsam libero magni maiores nam recusandae rerum, ut, velit. Ab accusamus, culpa, doloremque ducimus explicabo harum impedit mollitia placeat quia quis reiciendis repudiandae soluta? Soluta.</span></p>
+
+</body>
+</html>

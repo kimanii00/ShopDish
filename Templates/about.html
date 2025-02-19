@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="icon" href="{% static 'assets/img.png' %}">
+    
+</head>
+<body>
+
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'gallery' %}">Gallery</a>
+
+
+<h1>Additional information about ShopDish</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi explicabo fuga maxime neque non omnis sequi. Deserunt eaque impedit in ipsa laudantium magnam nemo nobis nulla quae quos reiciendis, voluptatem.</span><span>A deleniti doloribus esse facilis harum, illo illum maxime nesciunt nobis, rem, repellat saepe sed sint totam vel. Accusamus asperiores atque commodi consequatur, explicabo id ipsum maiores officia officiis vero.</span></p>
+
+<h2>Why choose Us?</h2>
+<div id="main">
+
+    <div class="mydiv">
+        <img src="{% static 'assets/watch1.png' %}" alt="">
+        <h3>Watch1</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad odio perspiciatis suscipit. Ad amet doloribus ducimus ea enim, ex fugit, iste libero minima modi odio porro quasi qui, quo saepe.</span><span>Ab accusantium blanditiis consequatur error et, exercitationem harum hic illo, incidunt labore laborum minima modi nisi obcaecati quod sequi voluptas. A, autem earum eius ex officia quibusdam quidem tenetur voluptate.</span></p>
+        <button>More</button>
+    </div>
+
+    <div class="mydiv">
+        <img src="{% static 'assets/watch2.png' %}" alt="">
+        <h3>Watch2</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad odio perspiciatis suscipit. Ad amet doloribus ducimus ea enim, ex fugit, iste libero minima modi odio porro quasi qui, quo saepe.</span><span>Ab accusantium blanditiis consequatur error et, exercitationem harum hic illo, incidunt labore laborum minima modi nisi obcaecati quod sequi voluptas. A, autem earum eius ex officia quibusdam quidem tenetur voluptate.</span></p>
+        <button>More</button>
+    </div>
+
+    <div class="mydiv">
+        <img src="{% static 'assets/watch3.png' %}" alt="">
+        <h3>Watch3</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad odio perspiciatis suscipit. Ad amet doloribus ducimus ea enim, ex fugit, iste libero minima modi odio porro quasi qui, quo saepe.</span><span>Ab accusantium blanditiis consequatur error et, exercitationem harum hic illo, incidunt labore laborum minima modi nisi obcaecati quod sequi voluptas. A, autem earum eius ex officia quibusdam quidem tenetur voluptate.</span></p>
+        <button>More</button>
+    </div>
+
+</div>
+
+</body>
+</html>
