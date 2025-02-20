@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+</head>
+<body>
+
+<form action="">
+
+    <legend>Registration Form</legend>
+    <br><br>
+
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" required="required">
+    <br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" required="required">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required="required">
+    <br><br>
+
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" required="required">
+    <br><br>
+
+    <label for="pwd2">Re-type Password:</label>
+    <input type="password" id="pwd2" required="required">
+    <br><br>
+
+    <label for="contact">Contact:</label>
+    <input type="number" id="contact" required="required">
+    <br><br>
+
+    <label for="gen">Gender:</label>
+    <select name="" id="gen">
+        <option value=""disabled="disabled"></option>
+        <option value="">Male</option>
+        <option value="">Female</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
